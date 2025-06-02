@@ -21,6 +21,7 @@ class _DbDatosState extends State<DbDatos> {
     actividadesFuture = BDActividad().getActividad();
   }
 
+//subiendo datos al main
   bool _formChanged = false;
 
   Future<bool> _onWillPop() async {
