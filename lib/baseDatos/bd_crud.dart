@@ -23,6 +23,7 @@ class BDActividad {
 
 
   // Versión de la base de datos
+  // Aqui realizaremos todas las peticiones que se deseene
   static const int _versionBD = 1; 
 
   BDActividad._();
